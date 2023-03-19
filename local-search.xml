@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>Sublime</title>
+    <link href="/2023/03/19/Sublime/"/>
+    <url>/2023/03/19/Sublime/</url>
+    
+    <content type="html"><![CDATA[<h1 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h1><ol><li>关闭杀毒软件</li><li>破解软件</li><li>安装注意事项<blockquote><p>勾选右键中使用sublime打开文件的选项，最终邮件会出现“open with sublime text”菜单</p></blockquote></li></ol><h1 id="常用配置"><a href="#常用配置" class="headerlink" title="常用配置"></a>常用配置</h1><blockquote><p> sublime4 配置不用在配置文件上直接修改，需要自己写（好处是改错配置时，可以直接恢复默认设置）</p></blockquote><ol><li>字体大小<br> “font_size”: 14,</li><li>字体类型<br> “font_face”: “微软雅黑”</li><li>行号<br> “line_numbers”: false,</li><li>左边距<br> “gutter”: true,</li><li>左边距距离<br> “margin”: 0</li><li>背景高亮<br> “highlight_line”: true,</li><li>行号背景高亮<br> “highlight_line_number”: true</li><li>默认编码<br> “default_encoding”: “UTF-8”</li><li>代码补全<br> “auto_complete”: true,</li><li>符号补全<br>“auto_match_enabled”: true,</li><li>开启vi模式<br>“ignored_packages”: [“Vintage”],</li><li>vi默认进入模式<br>“vintage_start_in_command_mode”: false,</li></ol><h1 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h1><ol><li>侧边栏：command + k + b</li><li>按住ctrl + 单机标签,</li><li>插件：ctrl + shift + p</li></ol><h1 id="AutoHotkey-代码输入效率提升"><a href="#AutoHotkey-代码输入效率提升" class="headerlink" title="AutoHotkey 代码输入效率提升"></a>AutoHotkey 代码输入效率提升</h1><h1 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h1><ol><li>插件控制器：Package Control<blockquote><p>首先安装 <code>Package Control: Install Package</code></p></blockquote></li><li>中文菜单: ChineseLocalization</li><li>代码块高亮: BracketHighlighter</li><li>高级另存为: Save Copy As</li><li>高级左侧栏: SideBarEnHancements</li></ol><h6 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h6><p>[【云知梦】Sublime4开发编辑器&#x2F;简单&#x2F;快捷&#x2F;高效](【【云知梦】Sublime4开发编辑器&#x2F;简单&#x2F;快捷&#x2F;高效】 <a href="https://www.bilibili.com/video/BV1PB4y1t7KZ/?share_source=copy_web&vd_source=b30da292ed40bd8e4644993d25ebba81">https://www.bilibili.com/video/BV1PB4y1t7KZ/?share_source=copy_web&amp;vd_source=b30da292ed40bd8e4644993d25ebba81</a>)</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Editor</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>win10任务栏时间显示秒</title>
     <link href="/2023/03/17/win10%E4%BB%BB%E5%8A%A1%E6%A0%8F%E6%97%B6%E9%97%B4%E6%98%BE%E7%A4%BA%E7%A7%92/"/>
     <url>/2023/03/17/win10%E4%BB%BB%E5%8A%A1%E6%A0%8F%E6%97%B6%E9%97%B4%E6%98%BE%E7%A4%BA%E7%A7%92/</url>
