@@ -16,15 +16,15 @@
   <meta name="author" content="Liu xiaotian">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Git配置用户名和邮箱12git config --global user.name 用户名git config --global user.email 邮箱  查看本地配置： 1git config --list    拉取项目：1git clone 项目链接  管理项目： 新建文件夹  在项目跟目录打开控制台 1git init  初始化项目，自动生成.git的隐藏文件">
+    <meta name="description" content="git分布式管理系统 版本控制版本迭代，新版本   Git配置 12345#查看本地配置 git config -l#查看系统configgit config --system --list　　#查看当前用户（global）配置git config --global  --list   设置用户名和邮箱  12git config --global user.name &quot;lxt&amp;quo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Git">
 <meta property="og:url" content="http://example.com/2023/02/24/Git/index.html">
 <meta property="og:site_name" content="Lxt">
-<meta property="og:description" content="Git配置用户名和邮箱12git config --global user.name 用户名git config --global user.email 邮箱  查看本地配置： 1git config --list    拉取项目：1git clone 项目链接  管理项目： 新建文件夹  在项目跟目录打开控制台 1git init  初始化项目，自动生成.git的隐藏文件">
+<meta property="og:description" content="git分布式管理系统 版本控制版本迭代，新版本   Git配置 12345#查看本地配置 git config -l#查看系统configgit config --system --list　　#查看当前用户（global）配置git config --global  --list   设置用户名和邮箱  12git config --global user.name &quot;lxt&amp;quo">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-02-24T02:25:22.000Z">
-<meta property="article:modified_time" content="2023-02-24T02:25:44.000Z">
+<meta property="article:modified_time" content="2023-03-22T12:02:56.978Z">
 <meta property="article:author" content="Liu xiaotian">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -219,7 +219,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          160 字
+          399 字
         
       </span>
     
@@ -230,7 +230,7 @@
         
         
         
-          2 分钟
+          4 分钟
         
       </span>
     
@@ -273,14 +273,36 @@
             
               <div class="markdown-body">
                 
-                <h1 id="Git配置"><a href="#Git配置" class="headerlink" title="Git配置"></a>Git配置</h1><h2 id="用户名和邮箱"><a href="#用户名和邮箱" class="headerlink" title="用户名和邮箱"></a>用户名和邮箱</h2><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs lua">git <span class="hljs-built_in">config</span> <span class="hljs-comment">--global user.name 用户名</span><br>git <span class="hljs-built_in">config</span> <span class="hljs-comment">--global user.email 邮箱</span><br></code></pre></td></tr></table></figure>
+                <ol start="2">
+<li><h1 id="git分布式管理系统"><a href="#git分布式管理系统" class="headerlink" title="git分布式管理系统"></a>git分布式管理系统</h1><blockquote>
+<h2 id="版本控制"><a href="#版本控制" class="headerlink" title="版本控制"></a>版本控制</h2><p>版本迭代，新版本</p>
+</blockquote>
+<blockquote>
+<h1 id="Git配置"><a href="#Git配置" class="headerlink" title="Git配置"></a>Git配置</h1></blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment">#查看本地配置 git config -l</span><br><span class="hljs-comment">#查看系统</span><br>configgit config --system --list　　<br><span class="hljs-comment">#查看当前用户（global）配置</span><br>git config --global  --list<br></code></pre></td></tr></table></figure>
 
-<p>查看本地配置：</p>
-<figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs lua">git <span class="hljs-built_in">config</span> <span class="hljs-comment">--list</span><br></code></pre></td></tr></table></figure>
+<blockquote>
+<p>设置用户名和邮箱</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">git config --global user.name <span class="hljs-string">&quot;lxt&quot;</span> <span class="hljs-comment">#名称</span><br>git config --global user.email xiaotian3303@outlook.com<br></code></pre></td></tr></table></figure>
 
-
-
-<h2 id="拉取项目："><a href="#拉取项目：" class="headerlink" title="拉取项目："></a>拉取项目：</h2><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs crmsh">git <span class="hljs-keyword">clone</span> <span class="hljs-title">项目链接</span><br></code></pre></td></tr></table></figure>
+<h2 id="Git基本理论"><a href="#Git基本理论" class="headerlink" title="Git基本理论"></a>Git基本理论</h2><blockquote>
+<p>本地</p>
+<blockquote>
+<p>工作目录Working Directory</p>
+</blockquote>
+<blockquote>
+<p>暂存区Stage&#x2F;index</p>
+</blockquote>
+<blockquote>
+<p>仓库区Repository</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>远程Git仓库Remote</p>
+</blockquote>
+<p>状态名称：modigied  staged  committed</p>
+<h2 id="拉取项目："><a href="#拉取项目：" class="headerlink" title="拉取项目："></a>拉取项目：</h2><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs crmsh">git <span class="hljs-keyword">clone</span> <span class="hljs-title">[项目链接]</span><br></code></pre></td></tr></table></figure>
 
 <h2 id="管理项目："><a href="#管理项目：" class="headerlink" title="管理项目："></a>管理项目：</h2><ol>
 <li><p>新建文件夹</p>
@@ -289,6 +311,8 @@
 <figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs csharp">git <span class="hljs-keyword">init</span><br></code></pre></td></tr></table></figure>
 
 <p>初始化项目，自动生成.git的隐藏文件</p>
+</li>
+</ol>
 </li>
 </ol>
 

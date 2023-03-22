@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://learn.theprogrammingfoundation.org/assets/images/structure-4f96bc5b7d9915a1c843931c9668cb3c.png">
 <meta property="article:published_time" content="2023-03-15T07:52:12.000Z">
-<meta property="article:modified_time" content="2023-03-15T07:54:00.000Z">
+<meta property="article:modified_time" content="2023-03-22T11:59:14.197Z">
 <meta property="article:author" content="Liu xiaotian">
 <meta property="article:tag" content="Mac">
 <meta name="twitter:card" content="summary_large_image">
@@ -222,7 +222,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1k 字
+          1.1k 字
         
       </span>
     
@@ -233,7 +233,7 @@
         
         
         
-          9 分钟
+          10 分钟
         
       </span>
     
@@ -294,8 +294,11 @@
 
 
 
-<h2 id="列出文件和目录"><a href="#列出文件和目录" class="headerlink" title="列出文件和目录"></a>列出文件和目录</h2><p>要列出所有目录和文件:</p>
+<h2 id="列出文件和目录"><a href="#列出文件和目录" class="headerlink" title="列出文件和目录"></a>列出文件和目录</h2><p>列出当前目录中的所有目录和文件:</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">user@apple:~$ ls<br></code></pre></td></tr></table></figure>
+
+<p>显示当前所在路径</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs sh">user@apple:~$ <span class="hljs-built_in">pwd</span><br></code></pre></td></tr></table></figure>
 
 
 
@@ -318,7 +321,7 @@
 <p>如果同名目录已存在，则 shell 会显示错误。</p>
 </blockquote>
 <p>要在 Unix 文件系统中创建文件，请键入：</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs text">user@apple:~$ touch file.txt<br><br></code></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs sh">user@apple:~$ <span class="hljs-built_in">touch</span> file.txt<br><br></code></pre></td></tr></table></figure>
 
 <p>可以使用以下方法创建具有不同扩展名的多个文件：</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs sh">user@apple:~$ <span class="hljs-built_in">touch</span> program.c program.h<br><br></code></pre></td></tr></table></figure>
@@ -343,8 +346,11 @@
 <p>可以使用标志 -r 删除目录：</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs sh">user@apple:~$ <span class="hljs-built_in">rm</span> -r new_directory<br><br></code></pre></td></tr></table></figure>
 
-
-
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ol>
+<li>history——-历史</li>
+<li>help———–帮助</li>
+<li>exit————退出</li>
+</ol>
 <p><a target="_blank" rel="noopener" href="https://learn.theprogrammingfoundation.org/os/unix/">参考网站</a></p>
 
                 
