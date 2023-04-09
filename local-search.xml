@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>配置Vue环境</title>
+    <link href="/2023/04/09/%E9%85%8D%E7%BD%AEVue%E7%8E%AF%E5%A2%83/"/>
+    <url>/2023/04/09/%E9%85%8D%E7%BD%AEVue%E7%8E%AF%E5%A2%83/</url>
+    
+    <content type="html"><![CDATA[<ol><li><p>下载nodejs安装包，安装完成</p></li><li><p>检验是否下载完成。<br>npm -v<br>node -v</p></li><li><p>安装vue的脚手架</p><ul><li>npm install -g vue-cli</li><li>npm install -g @vue&#x2F;cli</li></ul></li><li><p>vue -V</p></li><li><p>安装项目</p><ul><li><p>npm install -g vue-cli<br>npm init webpack项目名称（vue init <template-name> <project-name>）</p><p>Example:</p><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs applescript">$ vue init webpack <span class="hljs-keyword">my</span>-project<br></code></pre></td></tr></table></figure></li><li><p>npm install -g @vue&#x2F;cli<br>vue create 项目名称</p></li></ul></li></ol><p>注意：</p><ol><li>文件夹命名不要采用中文</li><li>安装文件目录和项目目录需要分清晰，不要混合在一起</li><li>npm 的镜像地址需要改变</li><li>在本地部署项目<br>检查是不是有node_modules文件夹<br>如果没有就npm install</li></ol>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>vue</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Sublime</title>
     <link href="/2023/03/19/Sublime/"/>
     <url>/2023/03/19/Sublime/</url>
