@@ -1,0 +1,4 @@
+baseURL: "https://liu-xiaotian.github.io/" # 主站的 URL
+languageCode: zh-cn # 语言
+title: xiaotian's Blog # 站点标题
+theme: mini # 主题
