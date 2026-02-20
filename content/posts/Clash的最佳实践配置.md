@@ -1,9 +1,8 @@
-+++
-date = '2026-02-21T00:11:29+08:00'
+---
+date: '2026-02-21T00:11:29+08:00'    # YAML 用冒号
 draft: false
-title = 'Clash的最佳实践配置'
-+++
-
+title: 'Clash的最佳实践配置'
+---
 [Clash for Windows 使用教程](https://help.mints7.cc/windows-jiao-cheng/clash-jiao-cheng)
 
 ## **关于一些客户端作者停止更新**
@@ -328,4 +327,3 @@ function main(content) {
 本文转载于：https://lainbo.com/article/clash-config
 
 仅作为备份查看，更多内容请查看原作者博客。
-
