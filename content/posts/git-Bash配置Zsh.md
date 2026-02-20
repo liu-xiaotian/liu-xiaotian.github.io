@@ -1,6 +1,6 @@
 +++
 date = '2026-02-03T23:00:58+08:00'
-draft = true
+draft = false
 title = 'Git Bash配置Zsh'
 
 +++
