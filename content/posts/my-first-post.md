@@ -8,6 +8,12 @@ title = 'My First Post'
 
 https://blog.eimoon.com/p/learn-hugo-blog-building-from-beginner-to-advanced/
 
+### 主题：
+
+[hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod)
+[hugo-tania](https://github.com/WingLim/hugo-tania)
+[hugo-theme-mini](https://github.com/nodejh/hugo-theme-mini)
+
 ### 主题设置：
 
 Hugo 在 v0.124.0 版本之后彻底删除了 `.Site.Social` 这个用法。
