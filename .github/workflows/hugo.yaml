@@ -15,44 +15,31 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-defaults:
-  run:
-    shell: bash
-
 jobs:
   build:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.126.0
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # 强制 Node.js 24
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # 强制使用 Node.js 24
     steps:
-      # 安装 Hugo
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
           sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
-      # 安装 Dart Sass
       - name: Install Dart Sass
         run: sudo snap install dart-sass
 
-      # Checkout 仓库
-      - name: Checkout
-        uses: actions/checkout@v4.11.0  # 升级到最新兼容 Node.js 24 的版本
-        with:
-          submodules: recursive
-          fetch-depth: 0
+      - name: Checkout code
+        uses: actions/checkout@v5.0.1
 
-      # 配置 GitHub Pages
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v4.3.0  # 升级到最新版本
+        uses: actions/configure-pages@v5.0.0
 
-      # 安装 Node.js 依赖
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
-      # Hugo 构建
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
@@ -64,18 +51,17 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
-      # 上传构建产物
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
   deploy:
+    needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
