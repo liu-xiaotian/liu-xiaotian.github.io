@@ -1,3 +1,10 @@
+---
+title: "AI SDK"
+date: 2026-03-29T12:00:00+08:00
+draft: false
+tags: ["Learning"]
+---
+
 1. 安装AI工具包
 
    https://ai-sdk.dev/
